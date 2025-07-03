@@ -42,10 +42,16 @@ A lightweight real-time object tracking and counting system using **YOLOv8** and
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-   ```
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
-4. **Run the program**
+   ```
+4. **Train the Model**
+   capture.py to capture images label them on robflow and place the dataset in roboflow folder
+   run trainmode.py
+
+6. **Run the program**
    ```bash
+   
    python main.py
    ```
 
